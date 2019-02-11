@@ -5,5 +5,6 @@
     "error",
     "segment",
     "view",
-    "auth"
+    "auth",
+    "db"
 ]
