@@ -6,6 +6,8 @@ inc([
     'db',
     'e',
     'error',
+    'method',
+    'redirect',
     'segment',
     'view',
 ]);

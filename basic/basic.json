@@ -6,5 +6,7 @@
     "segment",
     "view",
     "auth",
-    "db"
+    "db",
+    "method",
+    "redirect"
 ]

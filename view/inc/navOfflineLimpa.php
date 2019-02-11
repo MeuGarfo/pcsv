@@ -9,11 +9,6 @@
             <a class="brand" href="/">ListApe</a>
             <div class="nav-collapse collapse">
                 <?php view('inc/menu',$data); ?>
-                <form class="navbar-form pull-right" action="/signin" method="post">
-                    <input class="span2" type="email" name="email" placeholder="Email">
-                    <input class="span2" type="password" name="password" placeholder="Senha">
-                    <button type="submit" class="btn">Entrar</button>
-                </form>
             </div><!--/.nav-collapse -->
         </div>
     </div>
