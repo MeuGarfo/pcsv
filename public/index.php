@@ -21,5 +21,5 @@ if($controllerName=='/'){
 }
 $controllerName=$controllerName.'Controller';
 if(!controller($controllerName)){
-    echo ''404';
+    echo '404';
 }

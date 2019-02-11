@@ -28,10 +28,10 @@ function tReadController($uid){
 }
 
 function tUploadController(){
-    $currentUser=isAuth();
-    if($currentUser){
+    $user=isAuth();
+    if($user){
         $data=[
-            'currentUser'=>$currentUser
+            'user'=>$user
         ];
         if(method()=='GET'){
             view('upload');
