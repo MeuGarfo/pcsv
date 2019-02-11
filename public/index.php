@@ -1,6 +1,7 @@
 <?php
 require '../basic/basic.php';
 inc([
+    'auth',
     'controller',
     'e',
     'error',
