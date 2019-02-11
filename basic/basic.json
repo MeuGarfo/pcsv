@@ -8,5 +8,6 @@
     "auth",
     "db",
     "method",
-    "redirect"
+    "redirect",
+    "model"
 ]

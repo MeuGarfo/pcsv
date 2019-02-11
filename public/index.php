@@ -7,6 +7,7 @@ inc([
     'e',
     'error',
     'method',
+    'model',
     'redirect',
     'segment',
     'view',
@@ -18,6 +19,7 @@ $controllerName=segment(1);
 if($controllerName=='/'){
     $controllerName='index';
 }
+$controllerName=$controllerName.'Controller';
 if(!controller($controllerName)){
-    echo '404';
+    echo ''404';
 }

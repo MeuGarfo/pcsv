@@ -9,7 +9,6 @@ $title='Entrar';
     <?php view('inc/header'); ?>
 </head>
 <body>
-    <?php view('inc/navOfflineLimpa',$data); ?>
     <div class="container">
         <div class="offset4 span3">
             <h1><?php print $title; ?></h1>
