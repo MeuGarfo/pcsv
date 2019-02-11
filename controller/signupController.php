@@ -1,2 +1,12 @@
 <?php
-view('signup');
+if(method()=='GET'){
+    view('signup');
+}else{
+    $user=[
+        'name'=>@$_POST['name'],
+        'email'=>@$_POST['email'],
+        'password'=>@$_POST['password'],
+        'type'=>'user'
+    ];
+    die(var_dump(signup($user)));
+}

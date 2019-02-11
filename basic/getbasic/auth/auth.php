@@ -35,7 +35,6 @@ function signin(){
     return auth()->signin();
 }
 
-function signup(){
-    return auth()->signup();
+function signup($user=false){
+    return auth()->signup($user);
 }
-
